@@ -46,12 +46,8 @@ los metodos se utilizan de la siguiente manera:
 
 ```JS
 let frase = "JavaScript es un lenguaje de programación versátil";
-console.log(frase.length); // Longitud de la cadena
+console.log(frase.toLowerCase()); // Convertir a minúsculas
 ```
-
-### length
-
-Este metodo se utiliza para saber la longitud del string.
 
 ### toLowerCase()
 
@@ -76,3 +72,11 @@ Si queremos mostrar solo `JavaScript` vemos que si empezamos desde 0 contamos 9 
 ```JS
 console.log(frase.substring(0, 10));
 ```
+
+## Propiedades
+
+La sintasix es igual que la de los metodos la unica diferencia es que no tenemos unos parentesis al final de la propiedad.
+
+### length
+
+Este metodo se utiliza para saber la longitud del string.
